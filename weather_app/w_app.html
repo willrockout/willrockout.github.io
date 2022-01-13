@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="w_app.css">
+</head>
+<body id="w_app_body">
+    <div class="app-wrap">
+        <header>
+            <input id=input type="text" autocomplete="off" class="search-box" placeholder="Search for a city...">
+        </header>
+        <main>
+            <div class="current">
+                <div id="icon"><img id="wicon" src="https://openweathermap.org/img/w/01d.png" alt=""></div>
+                <div class="temp">53<span>°F</span></div>
+                <div class="weather">Cloudy</div>
+            </div>
+            <section class="location">
+                <div class="city">Santa Cruz, CA</div>
+                <div class="date">Wednesday 15 December 2021</div>
+            </section>
+            <div class="current">
+                <div class="hi-lo">54°F / 37°F</div>
+            </div>
+        </main>
+    </div>
+<script src="w_app.js"></script>
+</body>
+</html>
